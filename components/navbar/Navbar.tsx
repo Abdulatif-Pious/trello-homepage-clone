@@ -40,6 +40,7 @@ const Navbar = () => {
       > 
         <div  className='flex items-center  justify-between w-full max-w-[1480px] mx-auto my-3 lg:my-0'>
           <div className='flex w-full items-center'>
+            {}
             <Logo activeMobile={activeMobile} setActiveMobile={setActiveMobile} />
             <Menu 
               active={active}

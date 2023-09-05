@@ -1,9 +1,5 @@
-
-
 import './globals.css'
 import { Inter } from 'next/font/google'
-// import { useState } from 'react';
-
 
 import Navbar from '../components/navbar/Navbar';
 import Footer from '../components/footer/Footer';
@@ -20,7 +16,6 @@ export default function RootLayout({
 }: {
   children: React.ReactNode
 }) {
-  // const [active, setActive] = useState("");
 
   return (
     <html lang="en">

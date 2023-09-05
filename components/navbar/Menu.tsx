@@ -7,10 +7,10 @@ import { AiOutlineClose } from 'react-icons/ai';
 
 interface MenuProps {
   active: string,
-  setActive: (active? : string) => null,
+  setActive: any,
   mobileMenuShow: boolean,
-  setMobileMenuShow: (mobileMenuShow : boolean) => null,
-  setActiveMobile: (activeMobile : string) => null
+  setMobileMenuShow: any,
+  setActiveMobile: any
 }
 
 const Menu: React.FC<MenuProps> = ({ active, setActive, mobileMenuShow, setMobileMenuShow, setActiveMobile }) => {

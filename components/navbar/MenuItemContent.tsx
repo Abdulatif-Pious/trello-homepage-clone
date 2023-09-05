@@ -13,7 +13,7 @@ import MobileResourcesMenuItem from './mobileMenuItem/MobileResourcesMenuItem';
 interface MenuItemContentProps {
   active?: string | null,
   activeMobile? : string | null,
-  setActive: (active : string | null) => null
+  setActive?: any
 }
 
 const MenuItemContent: React.FC<MenuItemContentProps> = ({ active, activeMobile, setActive }) => {

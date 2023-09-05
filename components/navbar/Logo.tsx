@@ -6,7 +6,7 @@ import { BsChevronLeft } from 'react-icons/bs';
 
 interface LogoProps {
   activeMobile: string | null,
-  setActiveMobile: (activeMobile : string) => null
+  setActiveMobile: any
 }
 
 const Logo: React.FC<LogoProps> = ({ activeMobile, setActiveMobile }) => {
