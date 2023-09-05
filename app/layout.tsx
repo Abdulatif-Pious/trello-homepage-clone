@@ -25,7 +25,7 @@ export default function RootLayout({
           <Navbar />
         </nav>
         {children}
-        <footer className='w-full h-full py-10 bg-blue-950'>
+        <footer className='w-full h-full py-[40px] bg-blue-950'>
           <Footer />
         </footer>
       </body>

@@ -5,8 +5,8 @@ import Image from 'next/image';
 
 const Brands = () => {
   return (
-    <div className="max-w-[1280px] mx-auto px-4 lg:px-10 w-full text-center">
-      <p className='text-xl mb-6'>
+    <div className="max-w-[1280px] mx-auto px-[16px] lg:px-[40px] w-full text-center">
+      <p className='text-[20px] mb-6'>
         Join over 2,000,000 teams worldwide that are using Trello to get more done.
       </p>
       <div className='block md:hidden mx-auto w-[200px]'>

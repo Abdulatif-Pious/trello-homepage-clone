@@ -11,17 +11,17 @@ interface MenuItemsCardProps {
 const MenuItemsCard : React.FC<MenuItemsCardProps> = ({ title, Icon, description   }) => {
   return (
     <div
-      className='p-5 rounded-md hover:bg-green-100/50 cursor-pointer'
+      className='p-[20px] rounded-md hover:bg-green-100/50 cursor-pointer'
     >
       <div className='flex items-center  gap-3'>
         {Icon && <Icon className='w-6 h-6 md:w-9 md:h-9' />}
-        <h3 className='font-medium '>
+        <h3 className='font-medium text-[16px]'>
           {title}
         </h3>
       </div>
-      <p className='font-medium  text-xs md:leading-[16px]  text-secondary-gray mt-4'>
+      <p className='font-medium  text-[12px] md:leading-[16px]  text-secondary-gray mt-[16px]'>
           {description}
-        </p>
+      </p>
     </div>
   )
 }

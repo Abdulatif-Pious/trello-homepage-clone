@@ -14,7 +14,7 @@ interface PlanCardProps {
 const PlanCard : React.FC<PlanCardProps> = ({ category, price, title, description, buttonContent }) => {
   return (
     <div className={`
-      flex flex-col justify-between border p-4 w-full lg:w-1/4
+      flex flex-col justify-between border p-[16px] w-full lg:w-1/4
       ${category === "Premium" ? "border-cyan-500"  : "border-gray-300"} 
     `}>
       
@@ -23,10 +23,10 @@ const PlanCard : React.FC<PlanCardProps> = ({ category, price, title, descriptio
         <div>
           <p className="mb-2">
             $ {" "}
-            <span className="font-semibold text-5xl">{price}</span>{" "}
+            <span className="font-semibold text-[48px]">{price}</span>{" "}
             USD
           </p>
-          <p className="text-xs">{title}</p>
+          <p className="text-[12px]">{title}</p>
         </div>
         <p>{description}</p>
       </div>
@@ -38,9 +38,9 @@ const PlanCard : React.FC<PlanCardProps> = ({ category, price, title, descriptio
           category={category}
         />
 
-        <p className={`text-blue-600 underline cursor-pointer ${category === "Free" && "invisible"}`}>
+        <p className={`text-[16px] text-blue-600 underline cursor-pointer ${category === "Free" && "invisible"}`}>
           Learn more about {" "}
-        <span className="capitalize">{category}</span>
+        <span className="text-[16px] capitalize">{category}</span>
         </p>
       </div>
 

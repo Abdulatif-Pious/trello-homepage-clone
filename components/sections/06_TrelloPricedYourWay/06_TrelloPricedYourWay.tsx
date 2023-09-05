@@ -6,12 +6,12 @@ import PlanCard from "./PlanCard";
 
 const TrelloPricedYourWay = () => {
   return (
-    <div className="max-w-[1280px] mx-auto px-4 lg:px-10 w-full">
+    <div className="max-w-[1280px] mx-auto px-[16px] lg:px-[40px] w-full">
       <div className="text-center space-y-4">
-        <h3 className="font-semibold  text-2xl md:text-4xl">
+        <h3 className="font-semibold  text-[24px] md:text-[32px]">
           Trello priced your way
         </h3>
-        <p className="text-xl">
+        <p className="text-[20px]">
           Trusted by millions, Trello powers teams all around the world.
         </p>
 

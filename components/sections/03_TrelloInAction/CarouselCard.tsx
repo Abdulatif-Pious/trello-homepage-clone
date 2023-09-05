@@ -22,11 +22,11 @@ const CarouselCard : React.FC<CarouselCardProps> = ({ backgroundColor, icon, tit
       
       `}>
       </div>
-      <div className="p-4">
-        <h3 className="font-medium text-[20px] md:text-2xl">
+      <div className="p-[16px]">
+        <h3 className="font-medium text-[20px] md:text-[24px]">
           {title}
         </h3>
-        <p className="mt-2">
+        <p className="text-[16px] mt-2">
           {description}
         </p>
       </div>

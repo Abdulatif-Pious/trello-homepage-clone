@@ -37,7 +37,7 @@ const Menu: React.FC<MenuProps> = ({ active, setActive, mobileMenuShow, setMobil
         {menus.map((item: string) => (
           <div  key={item}>
             <p
-              className={`flex items-center justify-center  font-medium  capitalize text-lg py-3 cursor-pointer hover:text-blue-600
+              className={`flex items-center justify-center  font-medium  capitalize text-[18px] py-[12px] cursor-pointer hover:text-blue-600
                 ${active === item && "text-blue-600" }
               `}        
               onClick={() => onClick(item)}

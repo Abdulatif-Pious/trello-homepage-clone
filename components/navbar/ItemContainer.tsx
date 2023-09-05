@@ -19,7 +19,7 @@ const ItemContainer: React.FC<ItemContainerProps> = ({ title, description, butto
           title={title}
         />
         <hr className="hidden lg:block border-violet-500 my-4"/>
-        <p className="  text-xs  md:leading-[20px]   text-secondary-gray mt-2">
+        <p className="  text-[12px]  md:leading-[20px]   text-secondary-gray mt-2">
           {description}
         </p>
       </div>

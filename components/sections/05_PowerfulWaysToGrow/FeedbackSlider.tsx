@@ -23,8 +23,8 @@ const FeedbackSlider : React.FC<FeedbackSliderProps> = ({ content, person, posit
           height={500}
           className="absolute"
         />
-        <div className="flex flex-col justify-between h-full  p-8 lg:p-12">
-          <p className="text-2xl">{content}</p>
+        <div className="flex flex-col justify-between h-full  p-[32px] lg:p-[48px]">
+          <p className="text-[24px]">{content}</p>
           <div>
             <div 
               className="my-4 lg:my-2 w-48 h-[2px] bg-black/80"
@@ -46,8 +46,8 @@ const FeedbackSlider : React.FC<FeedbackSliderProps> = ({ content, person, posit
         </div>
       </div>
 
-      <div className="lg:basis-2/5 flex flex-col justify-between h-full  p-8 lg:py-12 bg-gradient-to-tr from-violet-500 to-pink-300">
-        <h3 className="text-white text-2xl md:text-4xl">
+      <div className="lg:basis-2/5 flex flex-col justify-between h-full  p-[32px] lg:py-[48px] bg-gradient-to-tr from-violet-500 to-pink-300">
+        <h3 className="text-white text-[24px] md:text-[32px]">
           {description}
         </h3>
         <p className="text-white/80 hover:text-white underline cursor-pointer">

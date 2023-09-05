@@ -18,7 +18,7 @@ const  Trello101 = () => {
   const [activeIndex, setActiveIndex] = useState(0);
 
   return (
-    <div className="max-w-[1280px] mx-auto px-4 lg:px-10 w-full">
+    <div className="max-w-[1280px] mx-auto px-[16px] lg:px-[40px] w-full">
       <Heading 
         topDescription="TRELLO 101"
         title="A productivity powerhouse"

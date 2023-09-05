@@ -17,7 +17,7 @@ import Button from '../../Button';
 
 const TrelloInAction = () => {
   return (
-    <div className="max-w-[1280px] mx-auto px-4 lg:px-10 w-full">
+    <div className="max-w-[1280px] mx-auto px-[16px] lg:px-[40px] w-full">
       <Heading 
         topDescription="TRELLO IN ACTION"
         title="Workflows for any project, big or small"
@@ -57,7 +57,7 @@ const TrelloInAction = () => {
       </Swiper>
 
       <div className='flex w-full flex-col lg:items-center space-y-6  lg:flex-row  my-6'>
-        <p className='basis-2/3 text-xl'>
+        <p className='basis-2/3 text-[20px]'>
           No need to start from scratch. Jump-start your 
           workflow with a proven playbook designed for different teams. 
           Customize it to make it yours.

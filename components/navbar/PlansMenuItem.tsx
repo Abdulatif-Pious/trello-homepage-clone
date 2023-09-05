@@ -10,12 +10,12 @@ const PlansMenuItem = () => {
   return (
     <div className="flex w-full">
 
-      <div className="flex w-3/5 bg-white py-4 ">
+      <div className="flex w-3/5 bg-white py-[16px] ">
         <div className="max-w-[1000px]  ml-auto pl-8 mr-8 ">
           <MenuItemsHeader 
             title="Take a page out of these pre-built Trello playbooks designed for all teams"
           />
-          <hr className="my-4 border-gray-300" />
+          <hr className="my-[16px] border-gray-300" />
           <div className="grid grid-cols-3 gap-y-3">
             {menuPlanContents.map((content) => (
               <MenuItemsCard 
@@ -28,7 +28,7 @@ const PlansMenuItem = () => {
             {menuPlanItemContent1.map((item, i) => (
               <div
                 key={`${item.title}-${i}`}
-                className="bg-yellow-50/50 p-5 col-span-3"
+                className="bg-yellow-50/50 p-[20px] col-span-3"
               >
                 <h3 className='text-[14px] font-medium '>
                   {item.title}
@@ -48,7 +48,7 @@ const PlansMenuItem = () => {
         </div>
       </div>
 
-      <div className=" w-2/5 bg-violet-100 py-4 px-8">
+      <div className=" w-2/5 bg-violet-100 py-[16px] px-[32px]">
         <div className=" max-w-[480px] mr-auto ">
           {menuPlanItemContent2.map((item, i) => (
             <ItemContainer 

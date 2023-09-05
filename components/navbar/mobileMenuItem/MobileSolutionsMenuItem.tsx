@@ -20,11 +20,11 @@ const MobileSolutionsMenuItem = () => {
             description={description}
           />
         ))}
-        <h3 className="text-[12px] border-y py-3">
+        <h3 className="text-[12px] border-y py-[12px]">
           See all teams
         </h3>
       </div>
-      <div className="bg-violet-100 p-3">
+      <div className="bg-violet-100 p-[12px]">
         {menuSolutionItemContent.map((item) => (
           <ItemContainer
             key={item.title} 

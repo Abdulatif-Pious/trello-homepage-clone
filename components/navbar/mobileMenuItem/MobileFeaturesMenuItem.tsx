@@ -23,7 +23,7 @@ const MobileFeaturesMenuItem = () => {
           />
         ))}
       </div>
-      <div className="bg-violet-100 p-3">
+      <div className="bg-violet-100 p-[12px]">
         {menuFeatureItemContents.map((item) => (
           <ItemContainer
             key={item.title} 

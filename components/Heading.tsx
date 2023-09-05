@@ -11,17 +11,17 @@ const Heading: React.FC<HeadingProps> = ({ topDescription, title,  description, 
   return (
     <div className="space-y-4 lg:w-1/2">
       {topDescription && (
-        <h5 className="font-semibold tracking-[1px]">{topDescription}</h5>
+        <h5 className="text-[16px] font-semibold tracking-[1px]">{topDescription}</h5>
       )}
-      <h3 className="font-semibold tracking-[1.5px] text-2xl md:text-4xl">
+      <h3 className="font-semibold tracking-[1.5px] text-[24px] md:text-[32px]">
         {title}
       </h3>
       {description && (
-        <p className="font-normal text-xl">
+        <p className="font-normal text-[20px]">
           {description} 
           
           {descLink && (
-            <span className="font-medium text-xl underline text-blue-600 cursor-pointer">
+            <span className="font-medium text-[20px] underline text-blue-600 cursor-pointer">
               {descLink}
             </span>
           )}

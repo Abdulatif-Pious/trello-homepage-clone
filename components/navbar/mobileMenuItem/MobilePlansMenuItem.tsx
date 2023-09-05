@@ -19,7 +19,7 @@ const MobilePlansMenuItem = () => {
         ))}
       </div>
 
-      <div className="bg-yellow-50/50 p-3 mb-3">
+      <div className="bg-yellow-50/50 p-[12px] mb-3">
         {menuPlanItemContent1.map((item) => (
           <ItemContainer
             key={item.title} 
@@ -32,7 +32,7 @@ const MobilePlansMenuItem = () => {
         ))}
       </div>
 
-      <div className="bg-violet-100 p-3">
+      <div className="bg-violet-100 p-[12px]">
         {menuPlanItemContent2.map((item) => (
           <ItemContainer
             key={item.title} 

@@ -26,7 +26,7 @@ const PowerfulWaysToGrow = () => {
   };
 
   return (
-    <div  className="max-w-[1280px] mx-auto px-4 lg:px-10 w-full">
+    <div  className="max-w-[1280px] mx-auto px-[16px] lg:px-[40px] w-full">
       <Heading 
         topDescription="POWERFUL WAYS TO GROW"
         title="Do more with Trello"

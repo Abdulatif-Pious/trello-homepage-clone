@@ -7,13 +7,13 @@ import Button from '../Button';
 
 const HeroSection = () => {
   return (
-    <div className="flex flex-col lg:flex-row w-full items-center lg:text-left text-center gap-6 px-4 lg:px-10 max-w-[1280px] mx-auto ">  
+    <div className="flex flex-col lg:flex-row w-full items-center lg:text-left text-center gap-6 px-[16px] lg:px-[40px] max-w-[1280px] mx-auto ">  
         
       <div className="w-full flex flex-col gap-3 lg:gap-6 ">
         <h2 className="font-bold  text-[32px] md:text-[44px] lg:text-[48px] text-black"> 
           Trello brings all your tasks, teammates, and tools together
         </h2>
-        <p className='font-medium text-xl text-black'>
+        <p className='font-medium text-[20px] text-black'>
           Keep everything in the same place—even if your team isn’t.
         </p>
         <div className='flex items-center lg:items-start xl:items-center md:flex-row lg:flex-col xl:flex-row w-full md:w-fit  gap-3 '>
@@ -21,7 +21,7 @@ const HeroSection = () => {
             type='email' 
             placeholder="Email" 
             className='
-              hidden md:block outline-none   h-fit w-[350px] rounded-lg p-3 duration-300 ring-white ring-offset-1 focus:ring-2'
+              hidden md:block outline-none   h-fit w-[350px] rounded-lg p-[12px] duration-300 ring-white ring-offset-1 focus:ring-2'
             />
           <div className='w-full md:w-1/3 lg:w-fit'>
             <Button 

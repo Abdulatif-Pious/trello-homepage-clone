@@ -36,7 +36,7 @@ const Logo: React.FC<LogoProps> = ({ activeMobile, setActiveMobile }) => {
         <div className={` ${activeMobile  ? "transform duration-500 translate-x-0 " : "transform duration-500 translate-x-[100%] "}`}>
           {activeMobile && (
             <div 
-              className='text-xl flex gap-2 items-center cursor-pointer'
+              className='text-[20px] flex gap-2 items-center cursor-pointer'
               onClick={handleBack}
             >
               <BsChevronLeft strokeWidth={1} /> Back

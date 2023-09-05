@@ -14,19 +14,19 @@ export default function Home() {
   return (
     <main>
      
-      <section className="w-full h-full py-10 bg-[url('/images/wave.png')] bg-no-repeat bg-center bg-fixed  bg-cover ">
+      <section className="w-full h-full py-[40px] bg-[url('/images/wave.png')] bg-no-repeat bg-center bg-fixed  bg-cover ">
         <HeroSection />
       </section>
       
-      <section className="w-full h-full  py-10 bg-gradient-to-b from-white via-sky-100/50 to-sky-200/80">
+      <section className="w-full h-full  py-[40px] bg-gradient-to-b from-white via-sky-100/50 to-sky-200/80">
         <Trello101 />
       </section>
 
-      <section className="w-full h-full py-10">
+      <section className="w-full h-full py-[40px]">
         <TrelloInAction />
       </section>
 
-      <section className="w-full h-full  py-10 bg-gradient-to-r from-blue-500  to-cyan-400 relative">
+      <section className="w-full h-full  py-[40px] bg-gradient-to-r from-blue-500  to-cyan-400 relative">
         <div className="hidden lg:block absolute top-0 h-full">
           <Image 
             src="/images/ViewsBackground_Left_Narrow.svg"
@@ -46,19 +46,19 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="w-full h-full  py-10 ">
+      <section className="w-full h-full  py-[40px] ">
         <PowerfulWaysToGrow />
       </section>
 
-      <section className="w-full h-full  py-10 mt bg-gradient-to-b from-cyan-100/50 to-white">
+      <section className="w-full h-full  py-[40px] mt bg-gradient-to-b from-cyan-100/50 to-white">
         <TrelloPricedYourWay />
       </section>
 
-      <section className="w-full h-full  py-10 ">
+      <section className="w-full h-full  py-[40px] ">
         <Brands />
       </section>
 
-      <section className="w-full h-full  py-10 bg-gradient-to-r from-indigo-600 to-pink-500 relative">
+      <section className="w-full h-full  py-[40px] bg-gradient-to-r from-indigo-600 to-pink-500 relative">
         <div className="hidden lg:block absolute top-0 h-full">
           <Image 
             src="/images/BigSwingFooterHeroGraphic__Left.svg"

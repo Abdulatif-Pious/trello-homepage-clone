@@ -20,7 +20,7 @@ const MobileResourcesMenuItem = () => {
           />
         ))}
       </div>
-      <div className="bg-violet-100 p-3">
+      <div className="bg-violet-100 p-[12px]">
         {menuResourceItemContent.map((item) => (
           <ItemContainer
             key={item.title} 

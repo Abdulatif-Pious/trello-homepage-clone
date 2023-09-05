@@ -36,7 +36,7 @@ const Navbar = () => {
     <div className=' w-full bg-white '>
 
       <div
-        className={`flex w-full   px-4 ${  active && "lg:shadow-xl"}`}
+        className={`flex w-full   px-[16px] ${  active && "lg:shadow-xl"}`}
       > 
         <div  className='flex items-center  justify-between w-full max-w-[1480px] mx-auto my-3 lg:my-0'>
           <div className='flex w-full items-center'>
@@ -72,12 +72,12 @@ const Navbar = () => {
     {mobileMenuShow && (
       <div className='w-full '>
         <div
-          className={`absolute w-full block lg:hidden bg-white  min-h-screen p-3 ${activeMobile  ? "transform duration-500 -translate-x-[100%]" : "transform duration-300 translate-x-0"}`}
+          className={`absolute w-full block lg:hidden bg-white  min-h-screen p-[12px] ${activeMobile  ? "transform duration-500 -translate-x-[100%]" : "transform duration-300 translate-x-0"}`}
         >
           {menus.map((menu : string, i) => (
             <div 
               key={`${menu}-${i}`}
-              className='flex justify-between border-y border-neutral-200 py-5 cursor-pointer'  
+              className='flex justify-between border-y border-neutral-200 py-[20px] cursor-pointer'  
               onClick={() => handleActiveMobileClicked(menu)}
             >
               <p className='capitalize text-[20px]'>
