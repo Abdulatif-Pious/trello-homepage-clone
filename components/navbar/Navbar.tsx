@@ -9,15 +9,17 @@ import SignButton from './SignButton';
 import MenuItemContent from './MenuItemContent'; 
 
 
-interface NavbarProps  {
-  active: string
-  setActive: any
-}
+// interface NavbarProps  {
+//   active: string
+//   setActive: any
+// }
 
 
-const Navbar: React.FC<NavbarProps> = ({ active, setActive }) => {
+const Navbar = () => {
   const [activeMobile, setActiveMobile] = useState("");
   const [mobileMenuShow, setMobileMenuShow] = useState(false);
+
+  const [active, setActive] = useState("");
 
   const menus = ["features", "solutions", "plans", "pricing", "resources"]; 
 
