@@ -21,7 +21,7 @@ export const productivityCard = [
     title: "Cards",
     description: `
       Cards represent  tasks and ideas and hold all 
-      the inforamtion to get thhe job done. As you make progress, move cards across 
+      the inforamtion to get the job done. As you make progress, move cards across 
       lists to show their status.
     `
   }
