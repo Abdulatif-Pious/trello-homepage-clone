@@ -16,7 +16,7 @@ const PlansMenuItem = () => {
             title="Take a page out of these pre-built Trello playbooks designed for all teams"
           />
           <hr className="my-[16px] border-gray-300" />
-          <div className="grid grid-cols-3 gap-y-3">
+          <div className="grid grid-cols-3 gap-y-[12px]">
             {menuPlanContents.map((content) => (
               <MenuItemsCard 
                 key={content.title}

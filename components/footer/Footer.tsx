@@ -12,8 +12,8 @@ import FooterCard from './FooterCard';
 const Footer = () => {
   return (
     <div className="max-w-[1280px] mx-auto px-[16px] lg:px-[40px] w-full">
-      <div className="flex flex-col lg:flex-row  lg:gap-10">
-        <div className='flex lg:flex-col justify-between lg:justify-start gap-4 p-[16px]'>
+      <div className="flex flex-col lg:flex-row  lg:gap-[40px]">
+        <div className='flex lg:flex-col justify-between lg:justify-start gap-[16px] p-[16px]'>
           <Image 
             src="/vercel.svg"
             alt="logo_img"
@@ -35,9 +35,9 @@ const Footer = () => {
 
       <hr className='hidden lg:block bg-gray-500 w-full h-1 my-4'/>
       
-      <div className='flex flex-col lg:flex-row justify-between w-full gap-8 my-4'>
-        <div className='basis-3/5 flex flex-col lg:flex-row items-start lg:items-center gap-4 w-full'>
-          <div className=' flex items-center gap-2'>
+      <div className='flex flex-col lg:flex-row justify-between w-full gap-[32px] my-4'>
+        <div className='basis-3/5 flex flex-col lg:flex-row items-start lg:items-center gap-[16px] w-full'>
+          <div className=' flex items-center gap-[8px]'>
             <AiOutlineGlobal className='text-white text-[30px]' />
             <select className='text-white outline-none focus:border bg-transparent py-[8px] h-fit cursor-pointer'>
               <option value="en" className='bg-gray-400 py-[8px]'>English</option>
@@ -56,7 +56,7 @@ const Footer = () => {
           <p className='text-[12px] text-white hover:underline cursor-pointer'>Terms</p>
           <p className='text-[12px] text-white hover:underline cursor-pointer'>Copyright © 2023 Atlassian</p>
         </div>
-        <div className='basis-2/5 flex gap-4 lg:justify-end w-full'>
+        <div className='basis-2/5 flex gap-[16px] lg:justify-end w-full'>
           <div className='border border-white rounded-full w-fit'>
             <AiOutlineInstagram  className='text-white m-2 cursor-pointer hover:text-[14px]' />
           </div>

@@ -8,7 +8,7 @@ const GetStartedTithTrelloToday = () => {
       <h3 className="font-medium text-white text-[24px] md:text-[32px]">
         Get started with Trello today
       </h3>
-      <div className="flex gap-4 w-full justify-center items-center my-3">
+      <div className="flex gap-[16px] w-full justify-center items-center my-3">
         <input 
           type="email"
           placeholder="Email"

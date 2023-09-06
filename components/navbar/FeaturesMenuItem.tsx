@@ -17,7 +17,7 @@ const FeaturesMenuItem = () => {
             title="Explore the features that help your team succeed"
           />
           <hr className="my-[16px] border-gray-300" />
-          <div className="grid grid-cols-3 gap-y-3">
+          <div className="grid grid-cols-3 gap-y-[12px]">
             {menuFeaturecontents.map((content) => (
               <MenuItemsCard 
                 key={content.title}

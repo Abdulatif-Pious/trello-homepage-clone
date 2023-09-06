@@ -8,7 +8,7 @@ interface SignButtonProps  {
 
 const SignButton: React.FC<SignButtonProps> = ({ mobile }) => {
   return (
-      <div className={`flex gap-3 ${mobile && " flex-col-reverse w-full"}`}>
+      <div className={`flex gap-[12px] ${mobile && " flex-col-reverse w-full"}`}>
       <Link 
         href="/"
         className={`text-[16px] text-center py-[12px] ${mobile ? "w-full border border-blue-600" : "w-[50px]"}`}

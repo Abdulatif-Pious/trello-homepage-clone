@@ -29,7 +29,7 @@ const  Trello101 = () => {
         "
         descLink="guide for getting started."
       />
-      <div className='flex flex-col-reverse gap-4 mt-10 lg:flex-row '>
+      <div className='flex flex-col-reverse gap-[16px] mt-10 lg:flex-row '>
         <div className='space-y-4 basis-[50%]'>
           {productivityCard.map((item, index) => (
             <CarouselCard 

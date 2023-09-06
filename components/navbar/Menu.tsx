@@ -33,7 +33,7 @@ const Menu: React.FC<MenuProps> = ({ active, setActive, mobileMenuShow, setMobil
   return (
     <>
                 {/*   DESKTOP SCREEN  */}
-      <div className={`hidden lg:flex relative  gap-6 ml-12`}>
+      <div className={`hidden lg:flex relative  gap-[24px] ml-12`}>
         {menus.map((item: string) => (
           <div  key={item}>
             <p

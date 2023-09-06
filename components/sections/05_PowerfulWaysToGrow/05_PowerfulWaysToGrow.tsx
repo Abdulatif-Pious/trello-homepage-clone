@@ -36,7 +36,7 @@ const PowerfulWaysToGrow = () => {
         "
       />
 
-      <div className="flex flex-wrap  justify-center gap-8 w-full my-4">
+      <div className="flex flex-wrap  justify-center gap-[32px] w-full my-4">
         <Card 
           img="/images/Gears.svg"
           alt="gears_img"

@@ -31,7 +31,7 @@ const FeedbackSlider : React.FC<FeedbackSliderProps> = ({ content, person, posit
             />
             <p>{person}</p>
             <p>{position}</p>
-            <div className="flex flex-col lg:flex-row justify-between lg:items-end gap-3 mt-6">
+            <div className="flex flex-col lg:flex-row justify-between lg:items-end gap-[12px] mt-6">
               <Image 
                 src={logoImg}
                 alt={alt}

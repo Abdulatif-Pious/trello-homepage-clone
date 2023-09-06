@@ -13,7 +13,7 @@ interface ItemContainerProps {
 
 const ItemContainer: React.FC<ItemContainerProps> = ({ title, description, buttonContent, color,  mobile}) => {
   return (
-    <div className={`${mobile &&  "flex items-center justify-between flex-wrap gap-4 w-full"}`}>
+    <div className={`${mobile &&  "flex items-center justify-between flex-wrap gap-[16px] w-full"}`}>
       <div>
         <MenuItemsHeader
           title={title}

@@ -17,7 +17,7 @@ const SolutionsMenuItem = () => {
             title="Take a page out of these pre-built Trello playbooks designed for all teams"
           />
           <hr className="my-[16px] border-gray-300" />
-          <div className="grid grid-cols-3 gap-y-3">
+          <div className="grid grid-cols-3 gap-y-[12px]">
             {menuSolutionContents.map((content) => (
               <MenuItemsCard 
                 key={content.title}
@@ -26,7 +26,7 @@ const SolutionsMenuItem = () => {
                 description={content.description}
               />
             ))}
-              <div className='flex items-center gap-2 w-fit cursor-pointer group '>
+              <div className='flex items-center gap-[8px] w-fit cursor-pointer group '>
                 <p>See all teams</p>
                 <FiArrowRight className='text-blue-600  duration-300 group-hover:translate-x-[5px]' />
               </div>
@@ -48,7 +48,7 @@ const SolutionsMenuItem = () => {
               description={item.description}
             />
           ))}
-          <div className='flex items-center gap-2 fit-content mt-10 cursor-pointer group/item'>
+          <div className='flex items-center gap-[8px] fit-content mt-10 cursor-pointer group/item'>
             <p>See all use cases</p>
             <FiArrowRight  className='text-blue-600 duration-300 group-hover/item:translate-x-[5px]'/>
           </div>

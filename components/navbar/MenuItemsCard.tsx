@@ -13,7 +13,7 @@ const MenuItemsCard : React.FC<MenuItemsCardProps> = ({ title, Icon, description
     <div
       className='p-[20px] rounded-md hover:bg-green-100/50 cursor-pointer'
     >
-      <div className='flex items-center  gap-3'>
+      <div className='flex items-center  gap-[12px]'>
         {Icon && <Icon className='w-6 h-6 md:w-9 md:h-9' />}
         <h3 className='font-medium text-[16px]'>
           {title}

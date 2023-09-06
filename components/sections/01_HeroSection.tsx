@@ -7,16 +7,16 @@ import Button from '../Button';
 
 const HeroSection = () => {
   return (
-    <div className="flex flex-col lg:flex-row w-full items-center lg:text-left text-center gap-6 px-[16px] lg:px-[40px] max-w-[1280px] mx-auto ">  
+    <div className="flex flex-col lg:flex-row w-full items-center lg:text-left text-center gap-[24px] px-[16px] lg:px-[40px] max-w-[1280px] mx-auto ">  
         
-      <div className="w-full flex flex-col gap-3 lg:gap-6 ">
+      <div className="w-full flex flex-col gap-[12px] lg:gap-[24px] ">
         <h2 className="font-bold  text-[32px] md:text-[44px] lg:text-[48px] text-black"> 
           Trello brings all your tasks, teammates, and tools together
         </h2>
         <p className='font-medium text-[20px] text-black'>
           Keep everything in the same place—even if your team isn’t.
         </p>
-        <div className='flex items-center lg:items-start xl:items-center md:flex-row lg:flex-col xl:flex-row w-full md:w-fit  gap-3 '>
+        <div className='flex items-center lg:items-start xl:items-center md:flex-row lg:flex-col xl:flex-row w-full md:w-fit  gap-[12px] '>
           <input 
             type='email' 
             placeholder="Email" 
@@ -30,7 +30,7 @@ const HeroSection = () => {
             />
           </div>
         </div>
-        <div className='flex items-center justify-center lg:justify-start gap-3 text-neutral-200 hover:text-white  group'>
+        <div className='flex items-center justify-center lg:justify-start gap-[12px] text-neutral-200 hover:text-white  group'>
           <p className='underline '>Watch video</p>
           <BsSkipStartCircle size={24}  className="group-hover:translate-x-[5px] duration-300" />
         </div>

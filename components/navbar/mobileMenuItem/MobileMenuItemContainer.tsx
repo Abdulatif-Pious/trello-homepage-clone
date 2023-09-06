@@ -13,7 +13,7 @@ const MobileMenuItemContainer: React.FC<MobileMenuContainerProps> = ({ title, Ic
     <div
     className="border-y  py-[12px]"
   >
-    <div className="flex items-center gap-1">
+    <div className="flex items-center gap-[4px]">
       {Icon && <Icon className='w-6 h-6 md:w-9 md:h-9' />}
       <h3>{title}</h3>
     </div>

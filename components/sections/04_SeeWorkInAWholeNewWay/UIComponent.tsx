@@ -13,7 +13,7 @@ interface UIComponenentProps {
 
 const UIComponent : React.FC<UIComponenentProps>  = ({ img, alt, title, description, link, reverse }) => {
   return (
-    <div className={`flex ${reverse ? " lg:flex-row-reverse" : "lg:flex-row"} flex-col   items-center  gap-10 bg-white p-[24px] my-6 rounded-md`}>
+    <div className={`flex ${reverse ? " lg:flex-row-reverse" : "lg:flex-row"} flex-col   items-center  gap-[40px] bg-white p-[24px] my-6 rounded-md`}>
       <Image 
         src={img}
         alt={alt}
