@@ -77,25 +77,25 @@ const MenuItemContent: React.FC<MenuItemContentProps> = ({ active, activeMobile,
       </div>
       
             {/*  MOBILE MENU ITEM CONTENT  */}
-      <div className={`block lg:hidden ${activeMobile === "features" ? "transform duration-500 translate-x-0" : "transform duration-500 translate-x-[100%]"}`}>
+      <div className={`block lg:hidden overflow-hidden ${activeMobile === "features" ? "transform duration-500 translate-x-0" : "transform duration-500 translate-x-[100%]"}`}>
         {activeMobile === 'features' && (
           <MobileFeaturesMenuItem />
         )}
       </div>
       
-      <div className={`block lg:hidden ${activeMobile === "solutions" ? "transform duration-500 translate-x-0" : "transform duration-500 translate-x-[100%]"}`}>
+      <div className={`block lg:hidden overflow-hidden ${activeMobile === "solutions" ? "transform duration-500 translate-x-0" : "transform duration-500 translate-x-[100%]"}`}>
         {activeMobile === "solutions" && (
           <MobileSolutionsMenuItem />
         )}
       </div>
 
-      <div className={`block lg:hidden ${activeMobile === "plans" ? "transform duration-500 translate-x-0" : "transform duration-500 translate-x-[100%]"}`}>
+      <div className={`block lg:hidden overflow-hidden ${activeMobile === "plans" ? "transform duration-500 translate-x-0" : "transform duration-500 translate-x-[100%]"}`}>
         {activeMobile === "plans" && (
           <MobilePlansMenuItem />
         )}
       </div>
 
-      <div className={`block lg:hidden ${activeMobile === "resources" ? "transform duration-500 translate-x-0" : "transform duration-500 translate-x-[100%]"}`}>
+      <div className={`block lg:hidden overflow-hidden ${activeMobile === "resources" ? "transform duration-500 translate-x-0" : "transform duration-500 translate-x-[100%]"}`}>
         {activeMobile === "resources" && (
           <MobileResourcesMenuItem />
         )}
